@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+   
+} 
+
+.container{
+    border:10px solid rgba(8, 210, 5, 0.392);
+    display: flex;
+    height: 299px;
+    width: 4%; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+    border-radius:25px;
+    box-sizing: border-box;
+    background-color:rgb(240, 241, 244)
+ /* other property settings can be organized alphabetically */
+
+}
+
+.login-card {
+    height: 170px;
+    width: 220px;
+    border: 7px solid rgba(112, 223, 38, 0.65);
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: left;
+    box-sizing: border-box;
+    
+}
+.form{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+}
+.form h1{
+    font-size: 25px;
+    flex-direction:row;
+    align-items:center;
+    background-color:rgb(200, 226, 253);
+}
+
+
+.box{
+    
+    align-items:left;
+    width:94%;
+    border: 2px solid rgb(185, 183, 183);
+    outline: none;
+    font-family:Aril Bold;
+    font-size: 14px;
+   background-color:rgb(223, 246, 223)
+}
+.Box{
+    flex-direction:center;
+    width:94%;
+    border: 2px solid rgb(181, 179, 179); 
+    font-family:Tahoma;
+    font-size: 14px;
+    outline:none;
+    background-color:rgb(243, 227, 231);
+}
+
+.media-query-magic{
+    display:none;
+}
+
+@media (700px <= width <= 1000px){
+        .media-query-magic{
+            display:block;
+        }
+        
+}
+@media (min-width:700px) and (max-width:1000px)
